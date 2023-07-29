@@ -31,7 +31,7 @@ function evenNumber(value) {
     return value.filter((item)=> item%2 == 0);
 };
 let result2 = evenNumber([12, 34, 45, 23, 6, 78, 54, 90]);
-//console.log(result2);
+console.log(result2);
 
 
 // =================TASK three =================
