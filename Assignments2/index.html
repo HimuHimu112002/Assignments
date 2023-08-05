@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+</head>
+
+<style>
+
+    .changeDiv, .content{
+        background-color: beige;
+        width: 500px;
+        height: 500px;
+        padding: 50px 10px;
+        margin-top: 20px;
+    }
+    .content{
+        width: 300px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .mainDiv{
+        display: flex;
+        overflow: hidden;
+        
+    }
+    .request{
+        margin-left: 30px;
+    }
+
+</style>
+
+<body>
+
+    <div class="mainDiv"> 
+
+        <!-- Task - 1 -->
+        <div class="changeDiv">
+            <h1>CHANGE ELEMENTS</h1>
+            <button onclick="ChangeContent()">CHANGE ELEMENTS</button>
+            <ol id="mainImg">1947 সালে ভারত বিভক্ত হওয়ার সাথে সাথে, এটি পাকিস্তানের পাঁচটি প্রদেশের মধ্যে একটি পূর্ব বাংলার পাকিস্তানি প্রদেশে পরিণত হয় (পরবর্তীতে পূর্ব পাকিস্তান) যা ভারতীয় ভূখণ্ডের 1,100 মাইল (1,800 কিমি) দ্বারা অন্য চারটি থেকে বিচ্ছিন্ন হয়। 1971 সালে এটি বাংলাদেশের স্বাধীন দেশে পরিণত হয়, যার রাজধানী ছিল ঢাকা।</ol>
+    
+        </div>
+    
+    
+        <!-- Task - 2 -->
+        <div class="content">
+            <H1>COUNT</H1>
+            <div class="incress_section">
+                <button onclick="increments()" class="decress1">incress</button>
+                <p class="count1">1</p>
+                <button onclick="decrements()" class="incress1">decress</button>
+            </div>
+        </div>
+
+
+
+        <!-- Task - 3 -->
+        <div>
+            <h1>IMAGE CHANGE</h1>
+            <button onclick="imgCng1()">Change-1</button>
+            <img id="imgChange"/>
+            <button onclick="imgCng2()">Change-2</button>
+        </div>
+
+
+        <!-- Task - 4 -->
+        <div class="request">
+            <h1>GET REQUEST FOR FETCH</h1>
+            <button onclick="requiest()">Request</button>
+        </div>
+
+    </div>
+
+
+    <script>
+
+
+        // ========= Task 1 ====================
+        function ChangeContent() {
+
+            var item = document.getElementById('mainImg')
+            item.innerHTML = "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+           
+        }
+
+
+
+        // ========= Task 2 =================
+        function increments() {
+            let incress1 = document.querySelector(".incress1");
+            let count1 = document.querySelector(".count1");
+            let count1InnerText = parseInt(count1.innerHTML);
+            let FinalCount = count1InnerText + 1;
+            count1.innerHTML = FinalCount;
+
+        }
+
+        function decrements() {
+            let decress1 = document.querySelector(".decress1");
+            let count1 = document.querySelector(".count1");
+            let count1InnerText = parseInt(count1.innerHTML);
+            let FinalCount = count1InnerText - 1;
+            count1.innerHTML = FinalCount;
+        }
+
+
+        // ========= Task 3 =================
+        function imgCng1() {
+            let item1 = document.getElementById("imgChange");
+            item1.src="https://www.pngplay.com/wp-content/uploads/15/Men-Background-PNG-Image.png"
+          
+        }
+        function imgCng2() {
+            let item1 = document.getElementById("imgChange");
+            item1.src="https://www.seekpng.com/png/detail/7-74965_businessman-business-man-images-png.png"
+          
+        }
+
+
+        // ========= Task 4 =================
+        let URL = "https://jsonplaceholder.typicode.com/posts";
+        function requiest() {
+
+            fetch(URL).then(res => res.json()).then(jsonData => console.log(JSON.stringify(jsonData)))
+
+        }
+        
+    </script>
+</body>
+</html>
