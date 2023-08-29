@@ -9,8 +9,8 @@ function printObjectProperties(val) {
         
     }
 }
-printObjectProperties({name: "Aktarujjaman",age: 24,school: "ostad"})
-
+printObjectProperties({})
+// JSON.stringify(val)
 
 
 // problem ============== 2
