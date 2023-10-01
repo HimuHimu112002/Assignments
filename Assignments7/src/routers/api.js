@@ -1,42 +1,36 @@
 const express = require('express')
 const router = express.Router()
 
-const {blogControllerCreate,blogControllerread,blogControllerdelete,blogControllerupdate} = require("../controllers/blogController.js")
+const {userControllerrCreate,userControllerread,userControllerdelete,userControllerupdate} = require("../controllers/userController.js")
 
-const {commentControllercreate,commentControllerread,commentControllerdelete,commentControllerupdate} = require("../controllers/commentController.js")
+const {subAdminControllercreate,subAdminControllerread,subAdminControllerdelete,subAdminControllerupdate} = require("../controllers/subAdminController.js")
 
-const {messageControllercreate,messageControllerread,messageControllerdelete,messageControllerupdate} = require("../controllers/messageController.js")
+const {postControllercreate,postControllerread,postControllerdelete,postControllerupdate} = require("../controllers/postController.js")
 
-const {portfolioControllercreate,portfolioControllerread,portfolioControllerdelete,portfolioControllerupdate} = require("../controllers/portfolioController.js")
+const {adminControllercreate,adminControllerread,adminControllerdelete,adminControllerupdate} = require("../controllers/adminController.js")
 
-const {productControllercreate,productControllerread,productControllerdelete,productControllerupdate} = require("../controllers/productController.js")
+// userController
+router.get("/userControllerrCreate",userControllerrCreate);
+router.get("/userControllerread",userControllerread);
+router.get("/userControllerdelete",userControllerdelete);
+router.get("/userControllerupdate",userControllerupdate);
 
-router.get("/blogControllerCreate",blogControllerCreate);
-router.get("/blogControllerread",blogControllerread);
-router.get("/blogControllerdelete",blogControllerdelete);
-router.get("/blogControllerupdate",blogControllerupdate);
+// adminController
+router.get("/subAdminControllercreate",subAdminControllercreate);
+router.get("/subAdminControllerread",subAdminControllerread);
+router.get("/subAdminControllerdelete",subAdminControllerdelete);
+router.get("/subAdminControllerupdate",subAdminControllerupdate);
 
+// subAdminController
+router.get("/postControllercreate",postControllercreate);
+router.get("/postControllerread",postControllerread);
+router.get("/postControllerdelete",postControllerdelete);
+router.get("/postControllerupdate",postControllerupdate);
 
-router.get("/commentControllercreate",commentControllercreate);
-router.get("/commentControllerread",commentControllerread);
-router.get("/commentControllerdelete",commentControllerdelete);
-router.get("/commentControllerupdate",commentControllerupdate);
-
-
-router.get("/messageControllercreate",messageControllercreate);
-router.get("/messageControllerread",messageControllerread);
-router.get("/messageControllerdelete",messageControllerdelete);
-router.get("/messageControllerupdate",messageControllerupdate);
-
-
-router.get("/portfolioControllercreate",portfolioControllercreate);
-router.get("/portfolioControllerread",portfolioControllerread);
-router.get("/portfolioControllerdelete",portfolioControllerdelete);
-router.get("/portfolioControllerupdate",portfolioControllerupdate);
-
-router.get("/productControllercreate",productControllercreate);
-router.get("/productControllerread",productControllerread);
-router.get("/productControllerdelete",productControllerdelete);
-router.get("/productControllerupdate",productControllerupdate);
+// postController
+router.get("/adminControllercreate",adminControllercreate);
+router.get("/adminControllerread",adminControllerread);
+router.get("/adminControllerdelete",adminControllerdelete);
+router.get("/adminControllerupdate",adminControllerupdate);
 
 module.exports = router

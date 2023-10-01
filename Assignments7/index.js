@@ -4,6 +4,8 @@ const routes = require("./app.js")
 
 app.use(routes)
 
-app.listen(5500, ()=>{
+
+let PORT = process.env.RUNNING_PORT;
+app.listen(8080, ()=>{
     console.log("Server running")
 })
