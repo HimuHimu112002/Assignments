@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const jwt = require('jsonwebtoken');
 const UserResistration = require('../../models/userRegistration/UserRegistration.js')
-
+const EmailSend = require('../../helper/EmailSend/EmailSend.js')
 
 async function UserRegistrationInfo(req, res){
     try{
@@ -11,6 +11,7 @@ async function UserRegistrationInfo(req, res){
             firstName, lastName, userName, email,password,phone
         })
         UserInfo.save()
+        EmailSend(email)
         res.send({success: "Registration Successfully"})
     }catch(err){
         res.send({ status: "error", error: err.toString() });
