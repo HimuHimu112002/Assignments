@@ -8,6 +8,7 @@ import "../src/index.css";
 import Person from "./components/Person";
 import Temperature from "./components/Temperature";
 import Massage from "./components/Massage";
+// import DragDrop from "./components/DragDrop";
 function App() {
   return (
     <>
@@ -21,6 +22,8 @@ function App() {
       <Person/>
       <Temperature/>
       <Massage/>
+
+      {/* <DragDrop/> */}
       
     </>
   );
