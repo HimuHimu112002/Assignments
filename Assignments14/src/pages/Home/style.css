@@ -1,0 +1,166 @@
+body{
+    font-family: 'Poppins', sans-serif !important; 
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.navbar{
+    position: absolute !important;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(116, 116, 116, 0.3);
+}
+
+.nav-link {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: black !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu__button__section{
+    margin-left: 10px;
+}
+
+.menuButton__1, .menuButton__2{
+    background: none !important;
+    color: black !important;
+    margin-right: 10px;
+    border-color: #20B15A !important;
+    transition: .4s all ease-in-out !important;
+}
+
+.menuButton__2{
+    background-color: #20B15A !important;
+    color: white !important;
+}
+
+.menuButton__1:hover{
+    background-color: #20B15A !important;
+    color: white !important;
+}
+
+.menuButton__2:hover{
+    background: transparent !important;
+    color: black !important;
+}
+
+.hero__section{
+    background-color: #20B15A;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__left__section{
+    padding-top: 50px;
+}
+
+.hero__left__section--heading, .hero__left__section--Subheading{
+    color: white;
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero__left__section--Subheading{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero__left__section--button{
+    border: 1px solid !important;
+    background: transparent !important;
+}
+
+.hero__section--logo{
+    position: absolute;
+    width: 70%;
+    padding: 25px 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.3);
+
+}
+
+.worklist__name{
+    color: #20B15A;
+    font-weight: 700;
+}
+
+.workList__top__text__section{
+    width: 500px ;
+}
+
+.worklist__heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer__main__section{
+    background-color: black;
+    color: white;
+    padding: 70px 0px;
+}
+
+.footer__menu{
+    margin: 0;
+    padding: 0;
+}
+.footer__menu li{
+   list-style-type: none;
+   padding: 7px 0px;
+}
+
+.footer__icon__main{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_icon__div{
+    width: 35px;
+    height: 35px;
+    background-color: #20B15A;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe__main__section{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe__main__section h5{
+    color: #20B15A;
+    text-align: center;
+}
+
+.subscribe__main__section h1, .subscribe__main__section p{
+    text-align: center;
+}
+
+.form__section{
+    position: relative;
+}
+
+.subscribe--button{
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+    background-color: #F55F1D !important;
+    color: white !important;
+    border: none !important;
+}
+
+.featuredProduct__main__section{
+    background-color: #F0FDF4;
+}
