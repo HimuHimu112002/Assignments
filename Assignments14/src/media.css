@@ -1,0 +1,135 @@
+@media(min-width:320px) and (max-width:575px){
+    .workList__top__text__section {
+        width: auto;
+    }
+    .subscribe__main__section h1{
+        font-size: 15px;
+    }
+    .subscribe__main__section p{
+        font-size: 12px;
+    } 
+    .subscribe--button {
+        top: 35px;
+    }
+    .worklist__heading {
+        font-size: 18px;
+        text-align: center;
+    }
+    .worklist__name {
+        text-align: center;
+    }
+    .hero__section {
+        height: auto;
+       padding-bottom: 20px;
+    }
+    .hero__left__section--heading, .hero__left__section--Subheading {
+        font-size: 29px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+    .hero__left__section--Subheading {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .hero__section--logo{
+        display: none;
+    }
+    .banner__right__img img{
+        margin-top: 15px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px){
+    .workList__top__text__section {
+        width: auto;
+    }
+    .subscribe__main__section h1{
+        font-size: 30px;
+    }
+    .subscribe__main__section p{
+        font-size: 15px;
+    } 
+    .subscribe--button {
+        top: 35px;
+    }
+    .worklist__heading {
+        font-size: 23px;
+        text-align: center;
+    }
+    .worklist__name {
+        text-align: center;
+    }
+    .hero__section {
+        height: auto;
+       padding-bottom: 20px;
+    }
+    .hero__left__section--heading, .hero__left__section--Subheading {
+        font-size: 29px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+    .hero__left__section--Subheading {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .hero__section--logo{
+        display: none;
+    }
+    .banner__right__img img{
+        margin-top: 15px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .workList__top__text__section {
+        width: auto;
+    }
+    .subscribe__main__section h1{
+        font-size: 30px;
+    }
+    .subscribe__main__section p{
+        font-size: 15px;
+    } 
+    .subscribe--button {
+        top: 35px;
+    }
+    .worklist__heading {
+        font-size: 23px;
+        text-align: center;
+    }
+    .worklist__name {
+        text-align: center;
+    }
+    .hero__section {
+        height: auto;
+       padding-bottom: 20px;
+    }
+    .hero__left__section--heading, .hero__left__section--Subheading {
+        font-size: 29px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+    .hero__left__section--Subheading {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .hero__section--logo{
+        /* width: 83%;
+        bottom: -25px; */
+        display: none;
+       
+    }
+    .banner__right__img img{
+        margin-top: 15px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1500px){
+    .hero__section--logo{
+       display: none;
+    }
+   
+}

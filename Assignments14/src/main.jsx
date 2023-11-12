@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import './media.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home/Home.jsx';
 import DemoOutLayout from './components/DomOutLayout.jsx'

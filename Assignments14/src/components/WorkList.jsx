@@ -17,10 +17,10 @@ const WorkList = () => {
             <Col className='m-auto my-4' sm="10" md="6" lg="4">
                 <WorlListcard logo='image/Work1.png' title={title1} Discription = {cardDiscription}/>
             </Col>
-            <Col className='m-auto' sm="10" md="6" lg="4">
+            <Col className='m-auto mt-2' sm="10" md="6" lg="4">
                 <WorlListcard logo='image/Work2.png' title={title2} Discription = {cardDiscription}/>
             </Col>
-            <Col className='m-auto' sm="10" md="6" lg="4">
+            <Col className='m-auto mt-3' sm="10" md="6" lg="4">
                 <WorlListcard logo='image/Work3.png' title={title3} Discription = {cardDiscription}/>
             </Col>
         </Row>

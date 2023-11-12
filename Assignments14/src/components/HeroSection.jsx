@@ -15,7 +15,7 @@ const HeroSection = () => {
                     </div>
                 </Col>
 
-                <Col className='' sm="10" lg="6">
+                <Col className='banner__right__img' sm="10" lg="6">
                     <div>
                         <img className='img-fluid w-100' src='image/heroImg.png'/>
                     </div>
