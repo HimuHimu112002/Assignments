@@ -1,4 +1,28 @@
+body{
+  font-family: 'Poppins', sans-serif !important; 
+}
 *{
   margin: 0;
   padding: 0;
+}
+
+.body{
+  font-family: 'Poppins', sans-serif !important; 
+}
+
+.breadCamb__main{
+  height: 20vh;
+  margin: auto;
+  padding-top: 90px;
+  background-color: #20B15A;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.breaCamb{
+  margin-bottom: 20px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
 }
