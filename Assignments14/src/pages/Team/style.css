@@ -1,0 +1,25 @@
+
+.team__section{
+    padding-top: 15%;
+}
+
+.team__section__main--heading{
+    color: #20B15A;
+    text-transform: uppercase;
+}
+
+.team__section__main--subHeading{
+    padding: 10px 0px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.team__button{
+    background-color: #20B15A !important;
+    border: none !important;
+    font-size: 20px;
+}
+
+.card__section{
+    border: 2px  solid #20B15A;
+}

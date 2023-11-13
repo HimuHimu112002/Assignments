@@ -1,0 +1,14 @@
+.service__section{
+    padding-top: 15%;
+}
+
+.service__section__main--heading{
+    color: #20B15A;
+    text-transform: uppercase;
+}
+
+.service__section__main--subHeading{
+    padding: 10px 0px;
+    font-size: 35px;
+    font-weight: 600;
+}

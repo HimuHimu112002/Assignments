@@ -13,14 +13,14 @@ const FeaturedProduct = () => {
                 <h5 className='worklist__heading'>We provide the Perfect Solution to your business growth</h5>
             </div>
             <Row>
-                <Col className='m-auto shadow p-4 rounded mt-2' sm="10" lg="6">
+                <Col className='m-auto shadow p-4 rounded mt-4' sm="10" lg="6">
                     <img className='w-100' src='image/Mask.png'/>
                     <p className='py-3'>{title}</p>
                     <h4>App Redesign</h4>
                 </Col>
                 <Col className='m-auto mt-4' sm="10" lg="6">
                     <Row>
-                        <Col md="6">
+                        <Col className='mt-3' md="6">
                             <FeaturedProductCard logo='image/Mask1.png' title={title} Discription={Discription}/>
                         </Col>
                         <Col className='mt-3' md="6">

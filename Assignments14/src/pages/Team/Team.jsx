@@ -1,8 +1,9 @@
 import React from 'react'
-
+import '../Team/style.css'
+import TeamSection from '../../components/TeamSection'
 const Team = () => {
   return (
-    <div>Team</div>
+    <TeamSection/>
   )
 }
 
