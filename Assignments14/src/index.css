@@ -11,8 +11,6 @@ body{
 }
 
 .breadCamb__main{
-  height: 20vh;
-  margin: auto;
   padding-top: 90px;
   background-color: #20B15A;
   color: white;
@@ -25,4 +23,11 @@ body{
   color: white;
   font-size: 25px;
   font-weight: 700;
+}
+
+.active{
+  color: red !important;
+}
+.pending{
+  color: white;
 }

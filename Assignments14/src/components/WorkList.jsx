@@ -1,28 +1,43 @@
 import React from 'react'
 import WorlListcard from './WorlListcard'
 import { Col, Container, Row } from 'react-bootstrap'
-const WorkList = () => {
-    let title1 = 'Grow Your Business'
-    let title2 = 'Improve brand loyalty'
-    let title3 = 'Improve Business Model'
+import { workLisk } from '../JSONDATA/DemoData'
+import { workLiskcard } from '../JSONDATA/DemoData'
 
-    let cardDiscription = 'We help identify the best ways to improve your business'
+const WorkList = () => {
+    let title1 = workLiskcard.workLiskCard1.title
+    let title2 = workLiskcard.workLiskCard1.title2
+    let title3 = workLiskcard.workLiskCard1.title3
+
+    let cardDiscription = workLiskcard.workLiskCard1.discription
+
   return (
     <Container className='mt-5'>
         <div className='workList__top__text__section pt-4'>
-            <h4 className='worklist__name'>Work List</h4>
-            <h5 className='worklist__heading'>We provide the Perfect Solution to your business growth</h5>
+            {workLisk.map((item)=>(
+                <>
+
+                    <h4 className='worklist__name'>{item.heading}</h4>
+                    <h5 className='worklist__heading'>{item.subHeading}</h5>
+
+                </>
+            ))}
+            
         </div>
         <Row>
+
             <Col className='m-auto my-3' sm="10" md="6" lg="4">
-                <WorlListcard logo='image/Work1.png' title={title1} Discription = {cardDiscription}/>
+                <WorlListcard logo={workLiskcard.workLiskCard1.img} title={title1} Discription = {cardDiscription}/>
             </Col>
+
             <Col className='m-auto mt-3' sm="10" md="6" lg="4">
-                <WorlListcard logo='image/Work2.png' title={title2} Discription = {cardDiscription}/>
+                <WorlListcard logo={workLiskcard.workLiskCard1.img2} title={title2} Discription = {cardDiscription}/>
             </Col>
+
             <Col className='m-auto mt-3' sm="10" md="6" lg="4">
-                <WorlListcard logo='image/Work3.png' title={title3} Discription = {cardDiscription}/>
+                <WorlListcard logo={workLiskcard.workLiskCard1.img3} title={title3} Discription = {cardDiscription}/>
             </Col>
+
         </Row>
     </Container>
   )

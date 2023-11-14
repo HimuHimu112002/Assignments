@@ -4,19 +4,23 @@ a{
     color: black !important;
     margin-left: 25px;
     margin-top: 5px;
+    transition: .2s all ease-in-out;
 }
+
+a:hover{
+    color: #F55F1D !important;
+}
+
+a:focus {
+    color: #20B15A !important;
+}
+
 .navbar{
     position: absolute !important;
     width: 100%;
     box-shadow: 0 4px 8px rgba(116, 116, 116, 0.3);
 }
 
-.nav-link {
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    color: black !important;
-    font-family: 'Poppins', sans-serif;
-}
 
 .menu__button__section{
     margin-left: 10px;

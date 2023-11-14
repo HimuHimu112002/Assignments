@@ -21,13 +21,16 @@ const NavMenu = () => {
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                 >
+                    
                     <Link to="/"><Nav>Home</Nav></Link>
+
                     <Link to="/team"><Nav >Team</Nav></Link>
+
                     <Link to="/servic"><Nav>Service</Nav></Link>
+
                     <Link to="/project"><Nav>Projects</Nav></Link>
+
                     <Link to="/testimonial"><Nav>Testimonials</Nav></Link>
-                    
-                    
                     
                 <div className='menu__button__section'>
                     <Button className='menuButton__1'>Login</Button>
