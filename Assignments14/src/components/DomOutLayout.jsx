@@ -7,10 +7,10 @@ import Subscribe from './Subscribe'
 const DomOutLayout = () => {
   return (
     <>
-        <NavMenu/>
-        <Outlet/>
-        <Subscribe/>
-        <Footer/>
+      <NavMenu/>
+      <Outlet/>
+      <Subscribe/>
+      <Footer/>
     </>
   )
 }

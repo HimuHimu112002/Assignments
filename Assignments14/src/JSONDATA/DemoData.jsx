@@ -86,4 +86,68 @@ const FeaturedData = {
     },
 }
 
-export {homeData,workLisk,workLiskcard,workListCountcard,FeaturedData};
+
+// team page data ========================
+const teamCard = {
+    teamHeading:{
+        heading: "OUR TEAM MEMBER",
+        subHeading: "Check our awesome team members"
+
+    },
+    teamMember:{
+        title: "Devon Lane",
+        discription: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        img: 'image/team1.png',
+
+        title2: "Danny Bailey",
+        img2: 'image/team2.png',
+
+        title3: "Alex Lov",
+        img3: 'image/team3.png',
+
+    },
+    
+}
+
+
+// service page data ========================
+const serviceCard = {
+    serviceHeading:{
+        heading: "OUR ALL SERVICES",
+        subHeading: "We Provide BestWeb design services"
+
+    },
+    ourService:{
+        title: "Build & Launch without problems",
+        discription: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+
+        img: 'image/Group1.png',
+        img2: 'image/Group2.png',
+        img3: 'image/Group3.png',
+        img4: 'image/Group4.png',
+
+    },
+    
+}
+
+
+// project page data ========================
+const projectCard = {
+    projectHeading:{
+        heading: "ALL PROJECT",
+        subHeading: "Better Agency/SEO Solution At Your Fingertips"
+
+    },
+    project:{
+        title: "Build & Launch without problems",
+        img: 'image/pro1.png',
+        img2: 'image/pro2.png',
+        img3: 'image/pro3.png',
+        img4: 'image/pro4.png',
+        img5: 'image/pro5.png',
+        img6: 'image/pro6.png',
+
+    },
+    
+}
+export {homeData,workLisk,workLiskcard,workListCountcard,FeaturedData,teamCard,serviceCard,projectCard};

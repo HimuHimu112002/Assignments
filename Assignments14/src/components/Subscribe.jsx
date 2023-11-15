@@ -4,9 +4,13 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 
 const Subscribe = () => {
+
   return (
+
     <Container>
+
         <Row className='subscribe__main__section py-5'>
+
             <Col md="10">
                 <h5>SUBSCRIBE</h5>
                 <h1>Subscribe to get the latest news about us</h1>
@@ -26,7 +30,9 @@ const Subscribe = () => {
                 </div>
       
             </Col>
+
         </Row>
+        
     </Container>
   )
 }

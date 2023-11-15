@@ -5,14 +5,15 @@ import { workLisk } from '../JSONDATA/DemoData'
 import { workLiskcard } from '../JSONDATA/DemoData'
 
 const WorkList = () => {
+
     let title1 = workLiskcard.workLiskCard1.title
     let title2 = workLiskcard.workLiskCard1.title2
     let title3 = workLiskcard.workLiskCard1.title3
-
     let cardDiscription = workLiskcard.workLiskCard1.discription
 
   return (
     <Container className='mt-5'>
+
         <div className='workList__top__text__section pt-4'>
             {workLisk.map((item)=>(
                 <>
@@ -24,6 +25,7 @@ const WorkList = () => {
             ))}
             
         </div>
+
         <Row>
 
             <Col className='m-auto my-3' sm="10" md="6" lg="4">
@@ -39,6 +41,7 @@ const WorkList = () => {
             </Col>
 
         </Row>
+        
     </Container>
   )
 }

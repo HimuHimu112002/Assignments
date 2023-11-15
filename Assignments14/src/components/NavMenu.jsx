@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
 const NavMenu = () => {
+
   return (
     <>
         <Navbar expand="lg" className="bg-body-tertiary">
@@ -23,19 +24,16 @@ const NavMenu = () => {
                 >
                     
                     <Link to="/"><Nav>Home</Nav></Link>
-
                     <Link to="/team"><Nav >Team</Nav></Link>
-
                     <Link to="/servic"><Nav>Service</Nav></Link>
-
                     <Link to="/project"><Nav>Projects</Nav></Link>
-
                     <Link to="/testimonial"><Nav>Testimonials</Nav></Link>
                     
-                <div className='menu__button__section'>
-                    <Button className='menuButton__1'>Login</Button>
-                    <Button className='menuButton__2'>Register</Button>
-                </div>
+                    <div className='menu__button__section'>
+                        <Button className='menuButton__1'>Login</Button>
+                        <Button className='menuButton__2'>Register</Button>
+                    </div>
+
                 </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -9,15 +9,20 @@ const FeaturedProduct = () => {
     let Discription = FeaturedData.Featured.subtitle
 
   return (
+
     <div className='featuredProduct__main__section py-5'>
+    
         <Container>
+
             <div className='workList__top__text__section py-4'>
                     
                 <h4 className='worklist__name'>{FeaturedData.Featured.heading}</h4>
                 <h5 className='worklist__heading'>{FeaturedData.Featured.subHeading}</h5>
 
             </div>
+
             <Row>
+
                 <Col className='m-auto shadow p-4 rounded mt-4' sm="10" lg="6">
                 
                     <img className='w-100' src={FeaturedData.FeaturedCard.img}/>
@@ -25,7 +30,9 @@ const FeaturedProduct = () => {
                     <h4>{FeaturedData.FeaturedCard.subtitle}</h4>
                        
                 </Col>
+
                 <Col className='m-auto mt-4' sm="10" lg="6">
+
                     <Row>
 
                         <Col className='mt-3' md="6">
@@ -45,9 +52,13 @@ const FeaturedProduct = () => {
                         </Col>
 
                     </Row>
+
                 </Col>
+
             </Row>
+
         </Container>
+
     </div>
   )
 }

@@ -4,10 +4,15 @@ import { Col, Container, Row,Button} from 'react-bootstrap'
 import { homeData } from '../JSONDATA/DemoData'
 
 const HeroSection = () => {
+
   return (
+
     <div className='hero__section'>
+
         <Container>
+
             <Row>
+
                 <Col sm="10" lg="6">
                     <div className='hero__left__section'>
                         {homeData.map((item)=>(
@@ -39,8 +44,11 @@ const HeroSection = () => {
                     ))
                 ))}
             </div>
+
         </Container>
+
     </div>
+    
   )
 }
 

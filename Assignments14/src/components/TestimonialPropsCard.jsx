@@ -2,9 +2,10 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-
 const TestimonialPropsCard = (props) => {
+
   return (
+
     <Card className='shadow' style={{ width: 'auto' }}>
       <Card.Img className='w-50 m-auto pt-5 img-fluid' variant="top" src={props.picture} />
       <Card.Body>
@@ -16,6 +17,7 @@ const TestimonialPropsCard = (props) => {
         <p className='text-center'>{props.subTitle}</p>
       </Card.Body>
     </Card>
+    
   )
 }
 
